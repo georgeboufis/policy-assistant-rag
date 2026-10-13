@@ -1,0 +1,20 @@
+Agent: IT service desk, this is Maria. How can I help?
+Caller: Hi, it's Daniel from the platform team. I can't get onto the VPN this morning.
+Agent: Sorry to hear that. What happens when you try to connect?
+Caller: It spins for a while and then says the connection timed out.
+Agent: That usually means your VPN client is out of date. We pushed a new version on Monday, and older clients are refused.
+Caller: How do I update it?
+Agent: Open the software centre on your laptop, search for the VPN client and choose update. It takes about five minutes and needs a restart.
+Caller: Okay, I'll do that after this call.
+Caller: There's a second thing. I left my hardware security key at home, so I can't sign in to anything else either.
+Agent: That happens a lot. I can issue you a temporary access code instead of the key.
+Caller: How long does that last?
+Agent: A temporary access code is valid for twenty-four hours, and you can only get one per week. After that you need the key itself.
+Caller: Fine, one day is all I need.
+Agent: I'll send it to your phone now. Don't forward it to anyone, including colleagues.
+Caller: Got it. Last question while I have you. My second monitor stopped working and I'd like a replacement.
+Agent: Replacement monitors need your manager's approval in the service portal first.
+Caller: And once it's approved, how long does it take to arrive?
+Agent: Approved monitors ship within five working days, to the office by default. If you want it delivered to your home, say so in the request.
+Caller: Great, thanks for your help.
+Agent: You're welcome. Your ticket number is INC-48213 if you need to call back.

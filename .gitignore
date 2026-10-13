@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+app/frontend/dist/
+
+# Built by running it: the vector store, and the conversations recorded while using it.
+# The -wal and -shm files are SQLite's companions - they hold the same data.
+**/db/chroma_db/
+app/backend/conversations.db*

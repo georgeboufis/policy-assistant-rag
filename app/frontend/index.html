@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="el" data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="dark light" />
+    <title>Policy Assistant</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script>
+      // Set the theme before the first paint, so a remembered light theme never
+      // flashes dark first. Dark is the default: this kind of tool is read for long
+      // stretches, and a dark surface keeps the answers and their sources prominent.
+      try {
+        var saved = localStorage.getItem("ui-theme");
+        document.documentElement.dataset.theme = saved === "light" ? "light" : "dark";
+      } catch (e) {
+        /* private window - the default in the markup stands */
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
